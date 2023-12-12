@@ -1,4 +1,9 @@
 # ASP.NET Core (.NET Framework)
+- task: AzureAppServiceSettings@1
+  inputs:
+    azureSubscription: 'Subscription 1(d3fc581c-4548-42d4-8a0a-6a9be583588f)'
+    appName: 'testdevopapps'
+    resourceGroupName: 'SA'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
