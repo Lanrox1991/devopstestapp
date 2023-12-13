@@ -12,7 +12,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'Devop pool'
 
 variables:
   solution: '**/*.sln'
